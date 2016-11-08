@@ -1,11 +1,7 @@
-def factorial(x,n):
- if(n>0):
-  x=factorial(x,n-1)
-  x=x*n
- else:
-  x=1
- return x
-n=int(input("ingresa un numero  \n"))
-x=1
-x=factorial(x,n)
-print (x)
+#Aporte Juan Diaz Araya
+def factorial(n):
+    num = 1
+    while n >= 1:
+        num = num * n
+        n = n - 1
+    return num
