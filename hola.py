@@ -21,3 +21,17 @@ def mcm(n1,n2):
   b = min(n1,n2)
   mcm = ( a / mcd(a,b)) * b
   return mcm
+
+def func(x,array):
+  x+=1
+  array.append(1)
+  return (array)
+
+i=2
+array=[1,2]
+new_array=func(i,array)
+print array
+print new_array
+
+for i in new_array:
+  print i
