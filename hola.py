@@ -35,3 +35,11 @@ print new_array
 
 for i in new_array:
   print i
+  
+#carol aportando
+
+def ElevarPotencia(numero, exponente):
+	resultado = numero
+	for x in range(exponente-1): resultado*=numero
+	return resultado
+
