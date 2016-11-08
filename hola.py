@@ -14,7 +14,7 @@ def lcm(x, y):
  
    return lcm
  
-num1 = int(input("Para calcular el mínimo común múltiplo \n Introduce el primer numero: "))
+num1 = int(input("Para calcular el minimo comun multiplo \n Introduce el primer numero: "))
 num2 = int(input("Introduce el segundo numero: "))
  
 print("El minimo comun multiplo de ", num1," y ", num2," es ", lcm(num1, num2))
