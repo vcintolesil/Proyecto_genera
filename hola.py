@@ -21,17 +21,22 @@ def mcm(n1,n2):
   b = min(n1,n2)
   mcm = ( a / mcd(a,b)) * b
   return mcm
+#ecuacion general, Fred Gonzalez
+a = float(raw_input('Ingrese a: '))
+b = float(raw_input('Ingrese b: '))
+c = float(raw_input('Ingrese c: '))
 
-def func(x,array):
-  x+=1
-  array.append(1)
-  return (array)
+discriminante = b ** 2 - 4 * a * c
+if discriminante < 0:
+    print 'La ecuacion no tiene soluciones reales'
+elif discriminante == 0:
+    x = -b / (2 * a)
+    print 'La solucion unica es x =', x
+else:
+    x1 = (-b - (discriminante ** 0.5)) / (2 * a)
+    x2 = (-b + (discriminante ** 0.5)) / (2 * a)
+    print 'Las dos soluciones reales son:'
+    print 'x1 =', x1
+    print 'x2 =', x2
 
-i=2
-array=[1,2]
-new_array=func(i,array)
-print array
-print new_array
-
-for i in new_array:
-  print i
+raw_input()
