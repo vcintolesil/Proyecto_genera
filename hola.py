@@ -1,5 +1,7 @@
 print "Hola"
-def sumar(x, y):
-    return x + y
-
-print sumar(3, 2)
+# Maria Fernanda aportando
+Def factorial(n):
+  f=1
+  for in range (1,n+1)
+    f*=1
+  Return f
