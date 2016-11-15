@@ -1,3 +1,4 @@
+#Funcion genera lista de valentina
 import random
 def genera():
       l = [0] * 6
@@ -7,6 +8,7 @@ def genera():
 
 a=genera()
 
+#Listas a comparar con función de carol
 
 n_sorteos=[
 [31,34,26,1,2,28],
