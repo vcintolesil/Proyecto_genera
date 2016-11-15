@@ -1,3 +1,13 @@
+import random
+def genera():
+      l = [0] * 6
+      for i in range(6):
+        l[i] = random.randint(0,41)
+      return l
+
+a=genera()
+
+
 n_sorteos=[
 [31,34,26,1,2,28],
 [27,19,23,24,10,14],
@@ -6950,12 +6960,4 @@ n_sorteos=[
 [3,16,25,27,29,38]
 ]
 
-import random
-def genera(n):
-      l = [0] * n
-      for i in range(n):
-        l[i] = random.randint(0,n)
-      return l
 
-a=genera(10)
-b=genera(10)
