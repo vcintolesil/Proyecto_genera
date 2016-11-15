@@ -6963,3 +6963,15 @@ n_sorteos=[
 ]
 
 
+
+#Funcion comprueba de Carol
+
+def comprueba(a,n_sorteos):
+    if a in n_sorteos:
+        return false
+    else:
+        return True
+
+c=comprueba(a,n_sorteos)
+print c
+
